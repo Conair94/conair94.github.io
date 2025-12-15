@@ -9,3 +9,12 @@ redirect_from:
 
 Welcome to the (work in progress) professional and academic website of Connor Lockhart! 
 Stay tuned for more. 
+
+Projects
+======
+
+Publications
+======
+
+Teaching and Outreach
+======
