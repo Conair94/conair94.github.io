@@ -9,37 +9,35 @@ redirect_from:
 
 {% include base_path %}
 
+<a href="/files/cv.pdf" target="_blank" class="btn btn--success">Download CV (PDF)</a>
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+*   **Ph.D. in Mathematics**, University of Maryland, College Park, 2025 (Expected)
+    *   Advisor: [Advisor Name]
+    *   Thesis: [Thesis Title/Topic in Model Theory]
+*   **B.S. in Mathematics**, [Previous University], [Year]
 
-Work experience
+Research Interests
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+*   **Quantitative Finance:** Market microstructure, stochastic calculus, derivatives pricing.
+*   **Machine Learning:** Deep learning, reinforcement learning, predictive modeling.
+*   **Mathematics:** Model theory, probability, geometry, combinatorics.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+Experience
+======
+*   **Graduate Teaching Assistant**, University of Maryland
+    *   [Year] - Present
+    *   Courses: Calculus I, II, III, Linear Algebra, etc. (Update as needed)
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
+*   **Research Assistant**, University of Maryland
+    *   [Year] - Present
+    *   Conducted research in...
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+*   **Programming:** Python (Pandas, NumPy, Scikit-learn, TensorFlow/PyTorch), C++, SQL, LaTeX.
+*   **Mathematics:** Stochastic Processes, Real Analysis, Probability Theory, Statistics.
 
 Publications
 ======
@@ -58,7 +56,3 @@ Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
