@@ -21,37 +21,11 @@
 
 body {
   background-color: #ffffff;
-  background-image:
-    /* Black Grid Lines */
-    linear-gradient(#000 4px, transparent 4px),
-    linear-gradient(90deg, #000 4px, transparent 4px),
-    
-    /* Red Squares */
-    linear-gradient(to right, rgba(229, 57, 53, 0.9) 100%, transparent 0%),
-    /* Yellow Squares */
-    linear-gradient(to right, rgba(255, 235, 59, 0.9) 100%, transparent 0%),
-    /* Orange Squares */
-    linear-gradient(to right, rgba(255, 152, 0, 0.9) 100%, transparent 0%),
-    /* Purple Squares */
-    linear-gradient(to right, rgba(156, 39, 176, 0.9) 100%, transparent 0%);
-
-  background-size:
-    150px 150px, /* Grid H */
-    150px 150px, /* Grid V */
-    146px 146px, /* Red Size */
-    146px 146px, /* Yellow Size */
-    146px 146px, /* Orange Size */
-    146px 146px; /* Purple Size */
-
-  background-position:
-    0 0, /* Grid H */
-    0 0, /* Grid V */
-    2px 2px,      /* Red (Cell 0,0) */
-    152px 302px,  /* Yellow (Cell 1,2) */
-    302px 2px,    /* Orange (Cell 2,0) */
-    452px 152px;  /* Purple (Cell 3,1) */
-
-  background-repeat: repeat;
+  background-image: url('/assets/fit.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* Ensure content is readable on top of the art */
