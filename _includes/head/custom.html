@@ -16,16 +16,16 @@
 
 <style>
 /* ==========================================================================
-   Background Slideshow & Layout
+   Static Background & Layout
    ========================================================================== */
 
 body {
-  background-color: #ffffff !important; /* Force white background to prevent orange flash */
+  background-color: #ffffff;
+  background-image: url('{{ base_path }}/assets/backgrounds/IMG_E8751.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  transition: background-image 1s ease-in-out; 
 }
 
 /* Ensure content is readable on top of the art */
@@ -65,46 +65,5 @@ body {
     }
 }
 </style>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    // Hardcoded list of images to ensure paths are correct
-    var images = [
-      "{{ base_path }}/assets/backgrounds/IMG_5521.jpeg",
-      "{{ base_path }}/assets/backgrounds/IMG_5692.jpeg",
-      "{{ base_path }}/assets/backgrounds/IMG_5734.jpeg",
-      "{{ base_path }}/assets/backgrounds/IMG_5801.jpeg",
-      "{{ base_path }}/assets/backgrounds/IMG_8462.jpg",
-      "{{ base_path }}/assets/backgrounds/IMG_8989.jpg",
-      "{{ base_path }}/assets/backgrounds/IMG_9045.jpg",
-      "{{ base_path }}/assets/backgrounds/IMG_E8588.jpg",
-      "{{ base_path }}/assets/backgrounds/IMG_E8721.jpg",
-      "{{ base_path }}/assets/backgrounds/IMG_E8725.jpg",
-      "{{ base_path }}/assets/backgrounds/IMG_E8748.jpg",
-      "{{ base_path }}/assets/backgrounds/IMG_E8751.jpg",
-      "{{ base_path }}/assets/backgrounds/IMG_E8893.jpg",
-      "{{ base_path }}/assets/backgrounds/IMG_E8930.jpg"
-    ];
-
-    if (images.length > 0) {
-      var currentIndex = 0;
-      
-      // Set initial background immediately
-      document.body.style.backgroundImage = "url('" + images[currentIndex] + "')";
-
-      // Preload images to prevent flickering
-      images.forEach(function(src) {
-        var img = new Image();
-        img.src = src;
-      });
-
-      // Change image every 30 seconds
-      setInterval(function() {
-        currentIndex = (currentIndex + 1) % images.length;
-        document.body.style.backgroundImage = "url('" + images[currentIndex] + "')";
-      }, 30000); 
-    }
-  });
-</script>
 
 <!-- end custom head snippets -->
