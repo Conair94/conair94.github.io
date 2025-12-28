@@ -28,6 +28,12 @@ body {
   background-repeat: no-repeat;
 }
 
+{% if page.url == "/" %}
+body {
+  padding-bottom: 0 !important;
+}
+{% endif %}
+
 /* Ensure content is readable on top of the art */
 .masthead {
     background-color: #fff;
