@@ -47,8 +47,10 @@ Publications
   
 Talks
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
+  <ul>{% for post in site.publications reversed %}
+    {% if post.category == 'talks' %}
+      {% include archive-single-talk-cv.html %}
+    {% endif %}
   {% endfor %}</ul>
   
 Teaching
