@@ -16,16 +16,17 @@
 
 <style>
 /* ==========================================================================
-   Mondrian Art Background
+   Background Slideshow & Layout
    ========================================================================== */
 
 body {
   background-color: #ffffff;
-  background-image: url('/assets/fit.jpg');
+  /* Initial background - will be updated by JS */
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
+  transition: background-image 1s ease-in-out; 
 }
 
 /* Ensure content is readable on top of the art */
@@ -65,5 +66,40 @@ body {
     }
 }
 </style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var images = [
+      {% for file in site.static_files %}
+        {% if file.path contains 'assets/backgrounds/' %}
+          "{{ file.path | relative_url }}",
+        {% endif %}
+      {% endfor %}
+    ];
+
+    // Filter out potential non-image files (like .DS_Store)
+    images = images.filter(function(url) {
+      return url.match(/\.(jpeg|jpg|gif|png)$/i);
+    });
+
+    if (images.length > 0) {
+      var currentIndex = 0;
+      
+      // Set initial background
+      document.body.style.backgroundImage = "url('" + images[currentIndex] + "')";
+
+      // Preload images to prevent flickering
+      images.forEach(function(src) {
+        var img = new Image();
+        img.src = src;
+      });
+
+      setInterval(function() {
+        currentIndex = (currentIndex + 1) % images.length;
+        document.body.style.backgroundImage = "url('" + images[currentIndex] + "')";
+      }, 30000); // 30 seconds
+    }
+  });
+</script>
 
 <!-- end custom head snippets -->
