@@ -14,30 +14,29 @@ show_footer: true
 
 Education
 ======
-*   **Ph.D. in Mathematics**, University of Maryland, College Park, 2025 (Expected)
-    *   Advisor: [Advisor Name]
-    *   Thesis: [Thesis Title/Topic in Model Theory]
-*   **B.S. in Mathematics**, [Previous University], [Year]
+*   **Ph.D. in Mathematics**, University of Maryland, College Park (Expected Spring 2027)
+    *   Advisor: Chris Laskowski 
+*   **B.S. in Mathematics**, University of Chicago, [2017-2021]
 
 Research Interests
 ======
-*   **Quantitative Finance:** Market microstructure, stochastic calculus, derivatives pricing.
-*   **Machine Learning:** Deep learning, reinforcement learning, predictive modeling.
-*   **Mathematics:** Model theory, probability, geometry, combinatorics.
+*   **Mathematics:** Model theory, probability, statistics, geometry, combinatorics, type theory.
+*   **Quantitative Finance:** Alpha Generation from alternative data sources, rigorous applications of AI and formal methods, derivatives pricing.
+*   **Machine Learning:** LLM Benchmarking via Formal Methods, Graph Neural Networks, Predictive Modeling and Time Series Forecasting. 
 
 Experience
 ======
 *   **Graduate Teaching Assistant**, University of Maryland
-    *   [Year] - Present
-    *   Courses: Calculus I, II, III, Linear Algebra, etc. (Update as needed)
+    *   [2021] - Present
+    *   Courses: 
 
 *   **Research Assistant**, University of Maryland
-    *   [Year] - Present
+    *   [2021] - Present
     *   Conducted research in...
 
 Skills
 ======
-*   **Programming:** Python (Pandas, NumPy, Scikit-learn, TensorFlow/PyTorch), C++, SQL, LaTeX.
+*   **Programming:** Python (Pandas, NumPy, Scikit-learn, TensorFlow/PyTorch), SQL, LaTeX, Haskell, Lean4.
 *   **Mathematics:** Stochastic Processes, Real Analysis, Probability Theory, Statistics.
 
 Publications
