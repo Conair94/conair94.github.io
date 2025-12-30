@@ -18,14 +18,14 @@ layout: compress
 
     {{ content }}
 
-    {% unless page.url == "/" %}
+    {% if page.show_footer %}
       <div class="page__footer">
         <footer>
           {% include footer/custom.html %}
           {% include footer.html %}
         </footer>
       </div>
-    {% endunless %}
+    {% endif %}
 
     {% include scripts.html %}
 
