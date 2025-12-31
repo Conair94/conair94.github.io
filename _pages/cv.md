@@ -36,7 +36,7 @@ Experience
 
 *   **Research Assistant**, University of Maryland
     *   [2021] - Present
-    *   Conducted research in...
+    *   Conducted research in model theory and combinatorics with applications to geometric group theory. Additionally, worked in subjects including finite automata, statistical game theory, and formal methods. 
 
 Skills
 ======
