@@ -1,6 +1,6 @@
 ---
 title: "Computational Search for 3-existential graphs"
-excerpt: "Exhaustive search algorithm in C and Google Cloud Platform for combinatorial graph properties.<br/><img src='/images/500x300.png'>"
+excerpt: "Exhaustive search algorithm in C and Google Cloud Platform for combinatorial graph properties."
 collection: portfolio
 date: 2025-01-01
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Levenshtein-distance Stock Typo Analysis"
-excerpt: "Analyzing market inefficiencies caused by retail trader typos using Levenshtein distance.<br/><img src='/images/500x300.png'>"
+excerpt: "Analyzing market inefficiencies caused by retail trader typos using Levenshtein distance."
 collection: portfolio
 date: 2025-01-01
 ---

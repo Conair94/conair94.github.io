@@ -1,6 +1,6 @@
 ---
 title: "Logic Research Group Wiki"
-excerpt: "A database of proofs and definitions in model theory for graduate students.<br/><img src='/images/500x300.png'>"
+excerpt: "A database of proofs and definitions in model theory for graduate students."
 collection: portfolio
 date: 2025-01-01
 ---

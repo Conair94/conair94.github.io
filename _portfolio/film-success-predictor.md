@@ -1,6 +1,6 @@
 ---
 title: "Review Aggregate Critical Film Success Predictor"
-excerpt: "Predicting film success and award outcomes using Letterboxd review data and community detection algorithms.<br/><img src='/images/500x300.png'>"
+excerpt: "Predicting film success and award outcomes using Letterboxd review data and community detection algorithms."
 collection: portfolio
 date: 2025-01-01
 ---
