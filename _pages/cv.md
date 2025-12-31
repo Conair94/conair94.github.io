@@ -10,7 +10,7 @@ show_footer: true
 
 {% include base_path %}
 
-<a href="/files/cv.pdf" target="_blank" class="btn btn--success">Download CV (PDF)</a>
+<a href="{{ base_path }}/files/cv.pdf" target="_blank" class="btn btn--success">Download CV (PDF)</a>
 
 Summary:
 =======
