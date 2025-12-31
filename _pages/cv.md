@@ -12,6 +12,10 @@ show_footer: true
 
 <a href="/files/cv.pdf" target="_blank" class="btn btn--success">Download CV (PDF)</a>
 
+Summary
+=======
+
+
 Education
 ======
 *   **Ph.D. in Mathematics**, University of Maryland, College Park (Expected Spring 2027)
