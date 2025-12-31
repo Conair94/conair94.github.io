@@ -43,7 +43,7 @@ Skills
 *   **Programming:** Python (Pandas, NumPy, Scikit-learn, TensorFlow/PyTorch), SQL, LaTeX, Haskell, Lean4.
 *   **Mathematics:** Stochastic Processes, Real Analysis, Probability Theory, Statistics.
 
-Publications
+<!--- Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
@@ -62,3 +62,4 @@ Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+  --->
