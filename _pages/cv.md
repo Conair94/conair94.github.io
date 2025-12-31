@@ -24,7 +24,7 @@ Research Interests
 *   **Quantitative Finance:** Alpha generation from alternative data sources, rigorous applications of AI and formal methods, derivatives pricing.
 *   **Machine Learning:** LLM Benchmarking via Formal Methods, Graph Neural Networks, Predictive Modeling and Time Series Forecasting. 
 
-Experience
+Work Experience
 ======
 *   **Formal Methods and International Math Olympiad Expert**, Mercor
     *   December 2025 - Present
