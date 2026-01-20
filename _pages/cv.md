@@ -24,14 +24,14 @@ Education
 Research Interests
 ======
 *   **Mathematics:** Model theory, probability, statistics, geometry, combinatorics, type theory.
-*   **Quantitative Finance:** Alpha generation from alternative data sources, rigorous applications of AI and formal methods, derivatives pricing.
 *   **Machine Learning:** LLM Benchmarking via Formal Methods, Graph Neural Networks, Predictive Modeling and Time Series Forecasting. 
+*   **Quantitative Finance:** Alpha generation from alternative data sources, rigorous applications of AI and formal methods, derivatives pricing.
 
 Work Experience
 ======
-*   **Formal Methods and International Math Olympiad Expert**, Mercor
+*   **LLM Benchmarking and International Math Olympiad Expert**, Mercor & FrontierMath
     *   December 2025 - Present
-    *   Worked on a project to benchmark LLM problem solving abilities using formal methods (Lean4) on International Math Olympiad Problems. Responsibilities included novel problem generation and formalization for use in scoring performance of cutting edge LLMs
+    *   Working on a project to train and benchmark LLM problem solving abilities on International Math Olympiad Problems. Responsibilities included novel problem generation and formalization for use in scoring performance and training of of cutting edge LLMs. 
 
 *   **Graduate Teaching Assistant**, University of Maryland
     *   2021 - Present
