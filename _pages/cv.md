@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "CV Summary"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -10,7 +10,7 @@ show_footer: true
 
 {% include base_path %}
 
-<a href="{{ base_path }}/files/cv.pdf" target="_blank" class="btn btn--success">Download CV (PDF)</a>
+<a href="{{ base_path }}/files/cv.pdf" target="_blank" class="btn btn--success">Download  CV (PDF)</a>
 
 Summary:
 =======
@@ -40,6 +40,27 @@ Work Experience
 *   **Research Assistant**, University of Maryland
     *   2021 - Present
     *   Conducted research in model theory and combinatorics with applications to geometric group theory. Additionally, worked in subjects including finite automata, statistical game theory, and formal methods. 
+
+*   **Instructor/Counselor**, Brin Mathematics Summer Camp, University of Maryland
+    *    Summer 2025
+    *    Taught an intensive program of mathematics topics to competitively admitted high schoolers including mathematical olympiad style problems at the USAMO level.
+
+Volunteer Experience
+======
+*   **Directed Reading Program**, President, University of Maryland
+    *    2023 - Present 
+    *    Administered undergraduate-graduate student pairings to read research texts in mathematics. I have supervised 4 projects.
+    * While president, streamlined the application and review process leading to 50% more pairings and less administrative load.
+
+*   **DC Department of Corrections**, Instructor, Petey Greene Program
+    *    2023- Present
+    *    Volunteered for the Petey Greene program to teach, tutor and design mathematical curriculum for inmates.
+    *    Worked with a variety of student backgrounds, designing curriculum for GED preparation, general mathematics education and college readiness programs.
+
+*   **DC Math Circles**, Instructor, Washington DC
+    *    2022-2023
+    *    Volunteered for an after school mathematics programs for 6th graders teaching combinatorics, probability, and other mathematical subjects not typically found in the middle school curriculum.
+
 
 Skills
 ======
