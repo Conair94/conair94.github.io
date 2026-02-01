@@ -29,8 +29,8 @@ Research Interests
 
 Work Experience
 ======
-*   **LLM Benchmarking and International Math Olympiad Expert**, Mercor & FrontierMath
-    *   December 2025 - Present
+*   **LLM Benchmarking and International Math Olympiad Expert**, Mercor (Contract)
+    *   December 2025 - February 2026
     *   Working on a project to train and benchmark LLM problem solving abilities on International Math Olympiad Problems. Responsibilities included novel problem generation and formalization for use in scoring performance and training of of cutting edge LLMs. 
 
 *   **Graduate Teaching Assistant**, University of Maryland
