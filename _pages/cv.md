@@ -8,7 +8,7 @@ redirect_from:
 show_footer: true
 ---
 
-{% include base_path %}
+{% include base_path %}1
 
 <a href="{{ base_path }}/files/cv.pdf" target="_blank" class="btn btn--success">Download  CV (PDF)</a>
 

@@ -1,0 +1,19 @@
+project:
+  type: website
+  output-dir: ../blog
+
+website:
+  title: "Connor Lockhart's Blog"
+  site-url: "https://conair94.github.io/blog/"
+  navbar:
+    right:
+      - text: "Main Site"
+        href: "https://conair94.github.io"
+      - icon: github
+        href: "https://github.com/conair94"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
