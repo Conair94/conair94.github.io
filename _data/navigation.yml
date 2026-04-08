@@ -14,5 +14,8 @@ main:
   - title: "Projects"
     url: /portfolio/
     
+  - title: "Blog"
+    url: https://conair94.github.io/Quarto/
+
   - title: "CV"
     url: /cv/
